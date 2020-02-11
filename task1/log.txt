@@ -1,0 +1,12 @@
+$ git log
+commit b0e90a613de971deb3eafcc2f96f246eea82eac1 (HEAD -> master)
+Author: Andrey <asalyun@gmail.com>
+Date:   Tue Feb 11 11:02:10 2020 +0300
+
+    add task1/status.txt
+
+commit 717a3b933814aa55ee0a47067e22d2eec9512a68
+Author: Andrey <asalyun@gmail.com>
+Date:   Tue Feb 11 10:36:33 2020 +0300
+
+    add .gitignore
