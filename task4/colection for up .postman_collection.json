@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "9468b397-e775-4700-82e4-fc6705fbdcfa",
+		"name": "colection for up ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "max korzh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search?term=max+korzh&country=by&entity=musicVideo&lang=en_us",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "max+korzh"
+						},
+						{
+							"key": "country",
+							"value": "by"
+						},
+						{
+							"key": "entity",
+							"value": "musicVideo"
+						},
+						{
+							"key": "lang",
+							"value": "en_us"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kino",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search?term=kino",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "kino"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lordi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://itunes.apple.com/search?term=lordi&entity=musicVideo",
+					"protocol": "https",
+					"host": [
+						"itunes",
+						"apple",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "lordi"
+						},
+						{
+							"key": "entity",
+							"value": "musicVideo"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
