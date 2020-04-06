@@ -255,6 +255,42 @@ div.post img.user-avatar {
     outline: none ;
 }
 
+.post div.user-actions button.change{
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;   
+    padding: 0px 30px 30px 0px;
+    cursor: pointer;
+    
+}
+
+.post div.user-actions button.change:hover{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+.post div.user-actions button.change:focus{
+    outline: none ;
+}
+
+.post div.user-actions button.delete{
+    float: right;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;   
+    padding: 0px 30px 30px 0px;
+    cursor: pointer;
+    
+}
+
+.post div.user-actions button.delete:hover{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+.post div.user-actions button.delete:focus{
+    outline: none ;
+}
 .post div.user-actions img {
     width: 30px;
     height: 30px;
