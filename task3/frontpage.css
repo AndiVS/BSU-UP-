@@ -1,82 +1,39 @@
-head{
-    background-color: #4dd7fa;
+.body{
+    overflow-y:scroll ;
+    background-color: #d7f6ff ;
+    outline-color: #c9f1fd;
+    
 }
 .fix{
     position: fixed;
     z-index: 5;
 }
-.blok {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 16% auto 16%;
-   
+
+.main{
+    margin-left: 18%;
+    margin-right: 18%; 
+    
 }
-.avtor{
-    background-color: #c9f1fd;
+
+.footer{
+    margin: 34% 0px 0px 0px;
+    background-color: transparent;
+    /* background-color: #c9f1fd; */
     height: auto;
-    max-width: 442px;
     text-align: left;
     font-size: 12px;
-    margin-left: 0px ;
-    margin-top: 0px ;
-    border-color: #91e4fb ;
-    border-radius: 4px;
+    opacity: 0.7;
 }
-.box0 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.box1 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.box2 { 
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-.box3 { 
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 500;
-}
-.box4 { 
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 500;
-}
-.box5 { 
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 500;
-}
-.d1{
-    background-color:  rgb(235, 247, 253) ;
-    height:335px;
-    z-index: 1;
-}
-.d2{
-    background-color:  #91e4fb ;
+
+.cap{
+    background: #91e4fb url(image/cap.png);
     height: 170px;
     z-index: 9;
 }
-.d3{
-    background-color: white;
-    z-index: 10;
-    height: 500px;
-    
-}
+
 .buttonsin{
-    background-color:#00c8ff;
-    border: #00c8ff;
+    background-color: transparent;
+    border: 2px solid #00c8ff;
     padding: auto;
     text-align: center;
     text-decoration: none;
@@ -85,29 +42,29 @@ head{
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    margin: 0px 5%;
+    margin: 10px 5%;
+    cursor: pointer;
     float: right;
 }
 .buttonsin:hover{
     animation-fill-mode: forwards; 
     background-color:white;
 }
+.buttonsin:focus{
+    outline: none;
+}
 .prphoto{
-    
-    border-color:#91e4fb;
-    border-width: 0px;
-    border-style: solid;
+    border: 0px solid #91e4fb;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin-top: 30px;
     margin-left: 50px;
 
  }
 .buttonsub{
-    background-color:#00c8ff;
-    border: #00c8ff;
-    border-width: 3px;
+    background-color: transparent;
+    border: 2px solid #00c8ff;
     padding: auto;
     text-align: center;
     text-decoration: none;
@@ -116,47 +73,77 @@ head{
     width: 120px;
     height:   30px;
     border-radius: 10px;
-    margin: -90px 5%;
+    margin: 100px -95px;
+    cursor: pointer;
     float: right;
 }
 .buttonsub:hover{
     animation-fill-mode: forwards; 
     background-color:white;
 }
+.buttonsub:focus{
+    outline: none;
+}
 .prfinfo{
-    margin: -30px 3%;
+    margin: -40px 3%;
     padding: 1% 1% 1% 1%;
-    width: 450px;
+    width: 550px;
     height: 45px;
     border-color: #00c8ff;
     border-width: 1px;
     background-color: #91e4fb;
     border-radius: 10px;
     float: right;
-    }
+}
 .options{
     float: left;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 4.8%;
+    margin-left: 4%;
     background-color: #91e4fb;
-    border: #91e4fb;
-    border-color: #91e4fb;
-    border-width: 10px;
+    border: 2px solid #00c8ff;
     border-radius: 10px;
     padding: auto;
     text-align: center;
     text-decoration: none;
     font-size: 15px;
+    cursor: pointer;
 }
 .options:hover{
     animation-fill-mode: forwards; 
     background-color:white;
 }
+.options:active{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+.options:focus{
+    outline: none;
+}
+.buttonfilter{
+    background-color: #91e4fb;
+    border: 2px solid #00c8ff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width: auto;
+    height:  auto;
+    border-radius: 10px;
+    margin: 4.8% 10px;
+    cursor: pointer;
+    
+}
+.buttonfilter:hover{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+.buttonfilter:focus{
+    outline: none;
+}
 .tab {
     overflow: hidden;
-    margin-top: 8%;
-    border: 1px solid #ccc;
-    background-color: rgb(235, 247, 253);
+    border: 1px solid #91e4fb;
+    background-color: #91e4fb;
   }
 .tab button {
     background-color: inherit;
@@ -170,17 +157,49 @@ head{
   }
   .tab button:hover {
     animation-fill-mode: forwards;
-    background-color: #ddd;
+    background-color: rgb(113, 206, 252);
   }
   .tab button.active {
-    background-color: #ccc;
+    background-color: rgb(6, 171, 253);
   }
 .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
+    background-color: white;
   }
+  
+button.addpost{
+    background-color: transparent;
+    /* background:  url(image/add.png); */
+    border: 2px solid #00c8ff; 
+    padding: auto;
+    color: #00c8ff; 
+    font-size: 40px;
+    cursor: pointer; 
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 230px 64%;
+    opacity: 0.8;
+    
+}
+button.addpost:hover{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+
+button.addpost:focus{
+    outline: none;
+}
+
+.addpostimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px 0px 2px ; 
+    
+}
+
 div.post {
     overflow: hidden;
     margin-right: 5%;
@@ -218,14 +237,22 @@ div.post img.user-avatar {
     margin-top: -10px;
     margin-left: 10px;
 }
+
 .post div.user-actions button.like{
-   
     float: right;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 50%;   
+    padding: 0px 30px 30px 0px;
 }
 
+.post div.user-actions button.like:hover{
+    animation-fill-mode: forwards; 
+    background-color:white;
+}
+.post div.user-actions button.like:focus{
+    outline: none ;
+}
 
 .post div.user-actions img {
     width: 30px;
@@ -249,5 +276,5 @@ div.post img.user-avatar {
     height: 55px;
     border-radius: 10px;
     margin: 10px 40% 2px 40%;
-    
+    cursor: pointer;  
 }
