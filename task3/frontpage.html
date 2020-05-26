@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<script src="main.js"></script>
+<link rel="stylesheet" href="frontpage.css"> 
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="image/ntw.jpg">
+    <title>NTW</title>
+</head>
+<body class="body" > 
+    <header>   
+    </header> 
+    <main class="main"  >
+
+          <div class="cap">  
+                    
+            <button class="buttonsin" type="button">Sing in</button>
+        
+            <img class="prphoto" src="image/person-icon.png"alt="profil photo">
+        
+            <button class="buttonsub" type="button">Subscribe</button>   
+        
+            <div class="prfinfo" > profill info</div>
+
+            <form >
+                <input type="date" placeholder="date" class="options " >
+                <input type="text" placeholder="name" class="options" >
+                <input type="text" placeholder="tag" class="options" >
+                <button class="buttonfilter" type="button">reset</button>
+                <button class="buttonfilter" type="button">filter</button>
+            </form>
+            
+           
+            <button class="addpost fix" >+</button>
+
+            <div class="tab">
+                <button class="tablinks" onclick="Tweet(event, 'Tweets')">Tweets</button>
+                <button class="tablinks" onclick="Tweet(event, 'Mytweets')">My tweets</button>
+            </div>
+            
+            <div id="Tweets" class="tabcontent">                
+        
+                    <div class = "post">
+                       <img class="user-avatar" src="image/person-icon.png" alt="Avatar">
+                        <div class="post-content">
+                            <div class="post-details">
+                                <b class="full-name">Donald Trump</b>
+                                <p class="username">@realDTrump</p>
+                                <p class="date">10 min</p>
+                            </div>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="user-actions">
+                            <button class="like" type="button">
+                                <img    src="image/like-icon.png" alt="Like button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "post">
+                        <img class="user-avatar" src="image/person-icon.png" alt="Avatar">
+                        <div class="post-content">
+                            <div class="post-details">
+                                <b class="full-name">full-name</b>
+                                <p class="username">@username</p>
+                                <p class="date"> post date</p>
+                            </div>
+                            <p class="content">post-content</p>
+                        </div>
+                        <div class="user-actions">
+                            <button class="like" type="button">
+                                <img    src="image/like-icon.png" alt="Like button">
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "post">
+                        <img class="user-avatar" src="image/person-icon.png" alt="Avatar">
+                        <div class="post-content">
+                            <div class="post-details">
+                                <b class="full-name">full-name</b>
+                                <p class="username">@username</p>
+                                <p class="date"> post date</p>
+                            </div>
+                            <p class="content">post-content</p>
+                        </div>
+                        <div class="user-actions">
+                            <button class="like" type="button">
+                                <img    src="image/like-icon.png" alt="Like button">
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <button class="buttonload" >load more </button>
+           </div>
+            
+              
+            <div id="Mytweets" class="tabcontent">
+                <div class = "post">
+                    <img class="user-avatar" src="image/person-icon.png" alt="Avatar">
+                     <div class="post-content">
+                         <div class="post-details">
+                             <b class="full-name">Donald Trump</b>
+                             <p class="username">@realDTrump</p>
+                             <p class="date">10 min</p>
+                         </div>
+                         <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     </div>
+                     <div class="user-actions">
+                        <button class="change" type="button">
+                            <img    src="image/change.png" alt="change">
+                        </button>
+                        <button class="delete" type="button">
+                            <img    src="image/delete.jpg" alt="delete">
+                        </button>
+                    </div>
+                 </div>
+                 <div class = "post">
+                    <img class="user-avatar" src="image/person-icon.png" alt="Avatar">
+                    <div class="post-content">
+                        <div class="post-details">
+                            <b class="full-name">full-name</b>
+                            <p class="username">@username</p>
+                            <p class="date"> post date</p>
+                        </div>
+                        <p class="content">post-content</p>
+                    </div>
+                    <div class="user-actions">
+                        <button class="change" type="button">
+                            <img    src="image/change.png" alt="change">
+                        </button>
+                        <button class="delete" type="button">
+                            <img    src="image/delete.jpg" alt="delete">
+                        </button>
+                    </div>
+                </div>
+                 <button class="buttonload" >load more </button>
+            </div>           
+
+        </div>
+        
+        
+ 
+    </main>
+    
+
+    <footer >
+        <div class="footer fix">NTW Сальдюн Андрей 2 курс 7 группа  asaldyun@gamil.com  v.0.0</div>
+    </footer>
+
+</body>
+</html>
