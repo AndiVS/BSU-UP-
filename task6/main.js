@@ -4,7 +4,7 @@ let posts = [
         description : `bla bla bla `,
         createAt : new Date('2020-04-06'),
         author : 'manhobla',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#bla'],
         likes: [],
     },
@@ -13,7 +13,7 @@ let posts = [
         description : `mo `,
         createAt : new Date('2020-03-11'),
         author : 'momen',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#mo'],
         likes: []
     },
@@ -22,7 +22,7 @@ let posts = [
         description : `A A.`,
         createAt : new Date('2020-03-12'),
         author : 'Aman',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#A'],
         likes: []
     },
@@ -33,7 +33,7 @@ let posts = [
         He is happy.`,
         createAt : new Date('2020-03-13'),
         author : 'username',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#hairdresser'],
         likes: []
     },
@@ -43,7 +43,7 @@ let posts = [
         Germany. The man kills nine people. He injures many other people.Some of the people are Iranian.`,
         createAt : new Date('2020-03-14'),
         author : 'big_panda',
-        photoLink : 'photos/panda.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#Germany'],
         likes: []
     },
@@ -53,7 +53,7 @@ let posts = [
         There is heavy rain. There is more rain in two days than in the whole month.`,
         createAt : new Date('2020-03-14'),
         author : 'username',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#hstorm', '#UK'],
         likes: []
     },
@@ -64,7 +64,7 @@ let posts = [
         They give it some meat.`,
         createAt : new Date('2020-03-15'),
         author : 'dog_robbi',
-        photoLink : 'photos/dog.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#animal', '#funny', '#fox'],
         likes: []
     },
@@ -74,7 +74,7 @@ let posts = [
         down by more than 75% in the last 50 years. The situation is very serious.`,
         createAt : new Date('2020-03-16'),
         author : 'username',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#peguins', '#Antarctica'],
         likes: []
     },
@@ -84,7 +84,7 @@ let posts = [
         Iran attacks a US military base in Iraq. The US president says that no one at the military base is hurt or killed.`,
         createAt : new Date('2020-03-17'),
         author : 'cute_koala',
-        photoLink : 'photos/koala.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#US'],
         likes: []
     },
@@ -94,7 +94,7 @@ let posts = [
         something. It is 500 years old crypt. There are bones inside the crypt. They are human bones.`,
         createAt : new Date('2020-03-18'),
         author : 'japan_fish',
-        photoLink : 'photos/fish.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#Peru', '#bones'],
         likes: []
     },
@@ -105,7 +105,7 @@ let posts = [
         are not travelling.`,
         createAt : new Date('2020-03-19'),
         author : 'big_panda',
-        photoLink : 'photos/panda.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#coronavirus'],
         likes: []
     },
@@ -115,7 +115,7 @@ let posts = [
         called "Just Walk Out,". Shoppers go into a store, put their shopping in their bag and then... just walk out.`,
         createAt : new Date('2020-03-20'),
         author : 'dog_robbi',
-        photoLink : 'photos/dog.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#Amazon'],
         likes: []
     },
@@ -125,7 +125,7 @@ let posts = [
         found that a third did not wash their hands after using the toilet.`,
         createAt : new Date('2020-03-21'),
         author : 'username',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#coronavirus'],
         likes: []
     },
@@ -135,7 +135,7 @@ let posts = [
         protect children from the COVID-19 virus. Schools will stay closed until April the 8th.`,
         createAt : new Date('2020-03-22'),
         author : 'cute_koala',
-        photoLink : 'photos/koala.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#coronavirus'],
         likes: []
     },
@@ -145,7 +145,7 @@ let posts = [
         37,000 airports to take off from and land at.`,
         createAt : new Date('2020-03-23'),
         author : 'japan_fish',
-        photoLink : 'photos/fish.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#games'],
         likes: []
     },
@@ -155,7 +155,7 @@ let posts = [
         St Pancras International because of the Eurostar trains to France, Belgium and Holland.`,
         createAt : new Date('2020-03-24'),
         author : 'username',
-        photoLink : 'image/person-icon.png',
+        photoLink : 'image/person-icon1.png',
         tags: ['#London', '#railway'],
         likes: []
     },
@@ -165,7 +165,7 @@ let posts = [
         It said criminals brains had a different structure to the brains of non-criminals`,
         createAt : new Date('2020-03-25'),
         author : 'big_panda',
-        photoLink : 'photos/panda.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#interesting'],
         likes: []
     },
@@ -175,7 +175,7 @@ let posts = [
         of intelligence". Scientists will scan the sky for signs of alien life.`,
         createAt : new Date('2020-03-26'),
         author : 'cute_koala',
-        photoLink : 'photos/koala.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#space'],
         likes: []
     },
@@ -186,7 +186,7 @@ let posts = [
         increase in 2020.`,
         createAt : new Date('2020-03-27'),
         author : 'dog_robbi',
-        photoLink : 'photos/dog.jpg',
+        photoLink : 'image/person-icon1.png',
         tags: ['#nature'],
         likes: []
     },
@@ -196,7 +196,7 @@ let posts = [
         will give parents seven months of leave. This is almost double the amount of its current leave.`,
         createAt: new Date('2020-03-28'),
         author: 'japan_fish',
-        photoLink: 'photos/fish.jpg',
+        photoLink: 'image/person-icon1.png',
         tags: ['#Finland'],
         likes: []
     },
