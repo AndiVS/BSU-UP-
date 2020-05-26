@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="frontpage.css"> 
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image" href="image/ntw.jpg">
+    <title>NTW</title>
+</head>
+<body class="body" > 
+    <header>   
+    </header> 
+    <main class="main"  >
+
+          <div class="cap">  
+                    
+            <button class="buttonsin" type="button">Sing in</button>
+        
+            <img class="prphoto" src="image/person-icon.png"alt="profil photo">
+        
+            <button class="buttonsub" type="button">Subscribe</button>   
+        
+            <div class="prfinfo" > profill info</div>
+
+            <form >
+                <input type="date" placeholder="date" class="options " >
+                <input type="text" placeholder="name" class="options" >
+                <input type="text" placeholder="tag" class="options" >
+                <button class="buttonfilter" type="button">reset</button>
+                <button class="buttonfilter" type="button" onclick="addFilterParams()" >filter</button>
+            </form>
+
+        <button  class="addpost fix" onclick="displayAdd()" >+</button>
+            
+            <div id="Addpost" class="newpostarea">
+                <form>
+                    <img class="adduser-avatar" src="image/person-icon.png" alt="Avatar">
+
+                     <div class="post-content">
+                            <label>
+                                    <textarea class="new-post-textarea" placeholder="The text of your post..."
+                                              spellcheck="true"></textarea>
+                            </label>
+                        </div>
+                        <div class="action-area">
+                            <!-- <div class="add-photo-area">
+                                <a href="#" class="upload-a-photo" title="Upload a Photo">
+                                    <img class="add-photo" src="image/add.png" alt="Add photo" >
+                                </a>
+                            </div> -->
+                            <div class="add-new-post">
+                                <button class="addnewpost"><strong>Add</strong></button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+            
+
+            <div class="tab">
+                <button class="tablinks" onclick="Tweet(event, 'Tweets')">Tweets</button>
+                <button class="tablinks" onclick="Tweet(event, 'Mytweets')">My tweets</button>
+            </div>
+            
+            <div id="Tweets" class="tabcontent">                
+        
+                
+           </div>
+            
+              
+            <div id="Mytweets" class="tabcontent">
+            
+               
+            </div>         
+            <button class="buttonload" >load more </button>  
+
+        </div>
+        
+        
+ 
+    </main>
+    
+
+    <footer >
+        <div class="footer fix">NTW Сальдюн Андрей 2 курс 7 группа  asaldyun@gamil.com  v.0.0</div>
+    </footer>
+    <script src="func.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
